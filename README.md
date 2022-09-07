@@ -99,4 +99,11 @@ curl --request POST \
 {"code":"success","payload":[{"msg":"testing","id":"fdf077e5-9606-471d-a5ab-e6ec11e7f3e4","createDate":"2022-09-07T09:38:49.818Z"}]}%
 ```
 
+## Bring up the containers
+
+
+```
+ docker compose up -d
+```
+
 
