@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-version: '3.8'
-=======
-
->>>>>>> fda75d319aecf7ae292e4d54f6581bd455ba5586
-
 services:
  notes:
   build:

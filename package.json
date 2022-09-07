@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "debug": "nodemon --inspect=0.0.0.0:9229 server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/dockersamples/node-mongo-docker#readme",
   "dependencies": {
+    "nodemon": "^2.0.19",
+    "ronin-database": "^0.1.1",
     "ronin-mocks": "^0.1.11",
     "ronin-server": "^0.1.3"
   }
